@@ -1,0 +1,1356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0A3B3B35000DC374CDC9DFE6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 535E3AE70657438B849705EE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FCE5979FCB5CF36464A1B043 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		45B72332766867C0A27BFEED /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3EB8BEE0F3004345AFF42E59 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4E74ABE3C139B4E0D0679B45 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				75813E5E8AB84669A2257926 /* PBXTargetDependency */,
+				49CF1FBF88324CC6B397E58C /* PBXTargetDependency */,
+				9754A969E24F445484CE494B /* PBXTargetDependency */,
+				BF7ACF02F5FD4E54AA756D7C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0BF5B594254B445EB8841EA3 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C04C7C7461DA4E1CBD976971 /* stb_image.cpp */; };
+		244988F02B7844539C297502 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = AAA00C26ADDA45B291F93885 /* glad.c */; };
+		D1FB67B71EE546A2851EF2AE /* hello_window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943D4E85B825421491C37D94 /* hello_window.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F18727920C34727AFD0F427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79CB383419F79AFD1F4287A;
+			remoteInfo = GLAD;
+		};
+		8844FDF5F0D348339CCE43B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79CB383419F79AFD1F4287A;
+			remoteInfo = GLAD;
+		};
+		90C00C4402784AF8A08768D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B6351B1A9095CBB75DA993;
+			remoteInfo = STB_IMAGE;
+		};
+		981E0A9B84074DE6BDD25770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B6351B1A9095CBB75DA993;
+			remoteInfo = STB_IMAGE;
+		};
+		A4EE34B4B84F476599E19129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3B3B35000DC374CDC9DFE6;
+			remoteInfo = ZERO_CHECK;
+		};
+		B3FFA6D046E4407387B66C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3B3B35000DC374CDC9DFE6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D9530C6A0CC343EB8EEA49C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8610412CA35E934EC28F1C80;
+			remoteInfo = 1.getting_started__1.1.hello_window;
+		};
+		DF09CAD907D648ADBA9C987E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3B3B35000DC374CDC9DFE6;
+			remoteInfo = ZERO_CHECK;
+		};
+		E7004E2654BA41C794B47DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58C19C0030E4863909457A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3B3B35000DC374CDC9DFE6;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257288D9B5174BF48F0F0064 /* IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		4D4A0FE3BEF645439ED71094 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5372B0252EC64713A2EFCA18 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7BFF8F51FA2F4C31838ADCFA /* libGLAD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLAD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF7C1A7F4A41AF87A5011D /* Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		943D4E85B825421491C37D94 /* hello_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_window.cpp; path = src/1.getting_started/1.1.hello_window/hello_window.cpp; sourceTree = SOURCE_ROOT; };
+		954089240F6F4FD9A4644E2A /* 1.getting_started__1.1.hello_window */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 1.getting_started__1.1.hello_window; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA00C26ADDA45B291F93885 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = src/glad.c; sourceTree = SOURCE_ROOT; };
+		BFF318EA57A6462B90762336 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C04C7C7461DA4E1CBD976971 /* stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = src/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		CB79E62D26E7409BB45CDF1E /* libSTB_IMAGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSTB_IMAGE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47FA5032F20444299FEBD91 /* OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E5EF9FDE900C43129DEF37FB /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F47AAAA15F9F446B8B52601A /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210BBDF4AF7C4DE4BAC410D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF51AC1E18B4DE8B8DB6781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CA382C1A004357AB4ABA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039147182ABD4476BCDA2A37 /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				E753BDDF8D044E49A1A50C38 /* Source Files */,
+				BFF318EA57A6462B90762336 /* CMakeLists.txt */,
+			);
+			name = GLAD;
+			sourceTree = "<group>";
+		};
+		0930C35A22B5477CA674E6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AF7C1A7F4A41AF87A5011D /* Cocoa.framework */,
+				257288D9B5174BF48F0F0064 /* IOKit.framework */,
+				E47FA5032F20444299FEBD91 /* OpenGL.framework */,
+				F47AAAA15F9F446B8B52601A /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283510381642414FAFC9465C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C04C7C7461DA4E1CBD976971 /* stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2B8706F64219457D9C9890C0 /* STB_IMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				283510381642414FAFC9465C /* Source Files */,
+				E5EF9FDE900C43129DEF37FB /* CMakeLists.txt */,
+			);
+			name = STB_IMAGE;
+			sourceTree = "<group>";
+		};
+		5BC952EE0971406EA3D39BCA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				943D4E85B825421491C37D94 /* hello_window.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		74A0833AC2D1488183C8BAC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAD933727B9748DF8C630DB5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DB3450ECB3C2419689E38869 /* CMake Rules */,
+				4D4A0FE3BEF645439ED71094 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D14C1EBA923B4E46A3729A00 = {
+			isa = PBXGroup;
+			children = (
+				2B8706F64219457D9C9890C0 /* STB_IMAGE */,
+				039147182ABD4476BCDA2A37 /* GLAD */,
+				F201507B52684B40A7D625A4 /* 1.getting_started__1.1.hello_window */,
+				AAD933727B9748DF8C630DB5 /* ALL_BUILD */,
+				D81E97CA3CEB464285B56B61 /* Products */,
+				0930C35A22B5477CA674E6C0 /* Frameworks */,
+				74A0833AC2D1488183C8BAC4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		D81E97CA3CEB464285B56B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954089240F6F4FD9A4644E2A /* 1.getting_started__1.1.hello_window */,
+				7BFF8F51FA2F4C31838ADCFA /* libGLAD.a */,
+				CB79E62D26E7409BB45CDF1E /* libSTB_IMAGE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3450ECB3C2419689E38869 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E753BDDF8D044E49A1A50C38 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA00C26ADDA45B291F93885 /* glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F201507B52684B40A7D625A4 /* 1.getting_started__1.1.hello_window */ = {
+			isa = PBXGroup;
+			children = (
+				5BC952EE0971406EA3D39BCA /* Source Files */,
+				5372B0252EC64713A2EFCA18 /* CMakeLists.txt */,
+			);
+			name = 1.getting_started__1.1.hello_window;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B6351B1A9095CBB75DA993 /* STB_IMAGE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC252BC442E7430B9E9905EF /* Build configuration list for PBXNativeTarget "STB_IMAGE" */;
+			buildPhases = (
+				0DA23ECEAC9D4A568651CFF2 /* Sources */,
+				6DF51AC1E18B4DE8B8DB6781 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A080D89652B542B39D9F6617 /* PBXTargetDependency */,
+			);
+			name = STB_IMAGE;
+			productName = STB_IMAGE;
+			productReference = CB79E62D26E7409BB45CDF1E /* libSTB_IMAGE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8610412CA35E934EC28F1C80 /* 1.getting_started__1.1.hello_window */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F974D3F7BE417CB9BE41A6 /* Build configuration list for PBXNativeTarget "1.getting_started__1.1.hello_window" */;
+			buildPhases = (
+				91C35A24D3284B0395C78E54 /* Sources */,
+				210BBDF4AF7C4DE4BAC410D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA6F32FBFE84A81AE287AAC /* PBXTargetDependency */,
+				63674DF41F9E4BE8917ECA0A /* PBXTargetDependency */,
+				6C03E4D9A9174D2182F2754F /* PBXTargetDependency */,
+			);
+			name = 1.getting_started__1.1.hello_window;
+			productName = 1.getting_started__1.1.hello_window;
+			productReference = 954089240F6F4FD9A4644E2A /* 1.getting_started__1.1.hello_window */;
+			productType = "com.apple.product-type.tool";
+		};
+		A79CB383419F79AFD1F4287A /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9470D602F764519AA231C29 /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				7B7882E8CBDC4D59AEA705AC /* Sources */,
+				70CA382C1A004357AB4ABA61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF269144444471F94E80C10 /* PBXTargetDependency */,
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = 7BFF8F51FA2F4C31838ADCFA /* libGLAD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58C19C0030E4863909457A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 69546C960A6F455F864669C3 /* Build configuration list for PBXProject "LearnOpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14C1EBA923B4E46A3729A00;
+			projectDirPath = /Users/hyj/codespace/LearnOpenGL;
+			projectRoot = "";
+			targets = (
+				45B72332766867C0A27BFEED /* ALL_BUILD */,
+				8610412CA35E934EC28F1C80 /* 1.getting_started__1.1.hello_window */,
+				A79CB383419F79AFD1F4287A /* GLAD */,
+				49B6351B1A9095CBB75DA993 /* STB_IMAGE */,
+				0A3B3B35000DC374CDC9DFE6 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E74ABE3C139B4E0D0679B45 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				"/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/ALL_BUILD",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE5979FCB5CF36464A1B043 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				"/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/ZERO_CHECK",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  make -f /Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  make -f /Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  make -f /Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/hyj/codespace/LearnOpenGL/build-xcode\n  make -f /Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA23ECEAC9D4A568651CFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5B594254B445EB8841EA3 /* stb_image.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7882E8CBDC4D59AEA705AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244988F02B7844539C297502 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C35A24D3284B0395C78E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FB67B71EE546A2851EF2AE /* hello_window.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49CF1FBF88324CC6B397E58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B6351B1A9095CBB75DA993 /* STB_IMAGE */;
+			targetProxy = 981E0A9B84074DE6BDD25770 /* PBXContainerItemProxy */;
+		};
+		63674DF41F9E4BE8917ECA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B6351B1A9095CBB75DA993 /* STB_IMAGE */;
+			targetProxy = 90C00C4402784AF8A08768D5 /* PBXContainerItemProxy */;
+		};
+		6C03E4D9A9174D2182F2754F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79CB383419F79AFD1F4287A /* GLAD */;
+			targetProxy = 7F18727920C34727AFD0F427 /* PBXContainerItemProxy */;
+		};
+		75813E5E8AB84669A2257926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3B3B35000DC374CDC9DFE6 /* ZERO_CHECK */;
+			targetProxy = B3FFA6D046E4407387B66C1B /* PBXContainerItemProxy */;
+		};
+		9754A969E24F445484CE494B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79CB383419F79AFD1F4287A /* GLAD */;
+			targetProxy = 8844FDF5F0D348339CCE43B6 /* PBXContainerItemProxy */;
+		};
+		A080D89652B542B39D9F6617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3B3B35000DC374CDC9DFE6 /* ZERO_CHECK */;
+			targetProxy = E7004E2654BA41C794B47DD0 /* PBXContainerItemProxy */;
+		};
+		ACF269144444471F94E80C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3B3B35000DC374CDC9DFE6 /* ZERO_CHECK */;
+			targetProxy = DF09CAD907D648ADBA9C987E /* PBXContainerItemProxy */;
+		};
+		BF7ACF02F5FD4E54AA756D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8610412CA35E934EC28F1C80 /* 1.getting_started__1.1.hello_window */;
+			targetProxy = D9530C6A0CC343EB8EEA49C9 /* PBXContainerItemProxy */;
+		};
+		DDA6F32FBFE84A81AE287AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3B3B35000DC374CDC9DFE6 /* ZERO_CHECK */;
+			targetProxy = A4EE34B4B84F476599E19129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1624456CABFE485DAD8AE801 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		188330AE7168428984FB53F2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		18D4613A58CE405D9B44EE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/hyj/codespace/LearnOpenGL/bin/1.getting_started;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/hyj/codespace/LearnOpenGL/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/opt/homebrew/lib/libglfw3.a,
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/Release/libSTB_IMAGE.a",
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/Release/libGLAD.a",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/1.getting_started__1.1.hello_window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		229552E2F307479A96E7F266 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		250C97B849D94C7C978BD4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		3302D69E9C244FA09748F826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		36B851F727A64A408DD8CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		3F50A4ADE5F74EE3AFE567A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		55370B72291E4A3AAA80768B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5859DA0DE2374523876A6FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		6BB590612532486AB87A0EE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		78F8E231E0FE4FE8A54B0ECD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		79349E206BE1465093FC6B32 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/hyj/codespace/LearnOpenGL/bin/1.getting_started/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/hyj/codespace/LearnOpenGL/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/opt/homebrew/lib/libglfw3.a,
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/RelWithDebInfo/libSTB_IMAGE.a",
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/RelWithDebInfo/libGLAD.a",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/1.getting_started__1.1.hello_window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		7D2E9A44607E4DE1B7B7CBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build";
+			};
+			name = Debug;
+		};
+		8C634C5F226848479DD2C0AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		8E139A3B30A5440F947E2532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		9522405B1A9445DFADE8746B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		B3251FCDFAA04E0EB9A4CE6C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		B7FB18207CB1400B9FFF59EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/hyj/codespace/LearnOpenGL/bin/1.getting_started;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/hyj/codespace/LearnOpenGL/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/opt/homebrew/lib/libglfw3.a,
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/Debug/libSTB_IMAGE.a",
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/Debug/libGLAD.a",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/1.getting_started__1.1.hello_window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		B9007DE90F294108B44B6077 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/hyj/codespace/LearnOpenGL/bin/1.getting_started/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/hyj/codespace/LearnOpenGL/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/hyj/codespace/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/opt/homebrew/lib/libglfw3.a,
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/MinSizeRel/libSTB_IMAGE.a",
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/MinSizeRel/libGLAD.a",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/1.getting_started__1.1.hello_window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		BCFCC1B2EF684EDCA5E242C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C0666C9FCD2B400D87903837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build";
+			};
+			name = Release;
+		};
+		C6B3E034EF0B40469B6D1998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		FA5ED8A847124FD8B741CF52 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/hyj/codespace/LearnOpenGL/build-xcode/configuration",
+					/Users/hyj/codespace/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/hyj/codespace/LearnOpenGL/build-xcode/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F974D3F7BE417CB9BE41A6 /* Build configuration list for PBXNativeTarget "1.getting_started__1.1.hello_window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB18207CB1400B9FFF59EA /* Debug */,
+				18D4613A58CE405D9B44EE92 /* Release */,
+				B9007DE90F294108B44B6077 /* MinSizeRel */,
+				79349E206BE1465093FC6B32 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3EB8BEE0F3004345AFF42E59 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3302D69E9C244FA09748F826 /* Debug */,
+				3F50A4ADE5F74EE3AFE567A4 /* Release */,
+				1624456CABFE485DAD8AE801 /* MinSizeRel */,
+				8C634C5F226848479DD2C0AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		535E3AE70657438B849705EE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250C97B849D94C7C978BD4B3 /* Debug */,
+				36B851F727A64A408DD8CE21 /* Release */,
+				229552E2F307479A96E7F266 /* MinSizeRel */,
+				6BB590612532486AB87A0EE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69546C960A6F455F864669C3 /* Build configuration list for PBXProject "LearnOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2E9A44607E4DE1B7B7CBCF /* Debug */,
+				C0666C9FCD2B400D87903837 /* Release */,
+				B3251FCDFAA04E0EB9A4CE6C /* MinSizeRel */,
+				55370B72291E4A3AAA80768B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9470D602F764519AA231C29 /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B3E034EF0B40469B6D1998 /* Debug */,
+				8E139A3B30A5440F947E2532 /* Release */,
+				78F8E231E0FE4FE8A54B0ECD /* MinSizeRel */,
+				9522405B1A9445DFADE8746B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC252BC442E7430B9E9905EF /* Build configuration list for PBXNativeTarget "STB_IMAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFCC1B2EF684EDCA5E242C3 /* Debug */,
+				5859DA0DE2374523876A6FEE /* Release */,
+				FA5ED8A847124FD8B741CF52 /* MinSizeRel */,
+				188330AE7168428984FB53F2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58C19C0030E4863909457A3 /* Project object */;
+}

@@ -1,0 +1,5 @@
+/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/STB_IMAGE.dir
+/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/GLAD.dir
+/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/1.getting_started__1.1.hello_window.dir
+/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/ALL_BUILD.dir
+/Users/hyj/codespace/LearnOpenGL/build-xcode/CMakeFiles/ZERO_CHECK.dir

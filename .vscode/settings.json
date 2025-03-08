@@ -1,0 +1,6 @@
+{
+    "search.quickOpen.includeSymbols": false,
+    "files.associations": {
+        "ios": "cpp"
+    }
+}

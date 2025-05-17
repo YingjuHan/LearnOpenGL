@@ -40,6 +40,8 @@ if(WIN32)
   add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 elseif(UNIX AND NOT APPLE)
   set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
+  cmake_policy(SET CMP0072 NEW)
+  set(OpenGL_GL_PREFERENCE "GLVND")
   find_package(OpenGL REQUIRED)
   add_definitions(${OPENGL_DEFINITIONS})
   find_package(X11 REQUIRED)
@@ -83,12 +85,14 @@ set(1.getting_started
     3.2.shaders_interpolation
     3.3.shaders_class
     4.1.textures
-#     4.2.textures_combined
-#     4.4.textures_exercise2
-#     4.5.textures_exercise3
-#     4.6.textures_exercise4
-#     5.1.transformations
-#     5.2.transformations_exercise2
+    4.2.textures_combined
+    4.3.textures_exercise1
+    4.4.textures_exercise2
+    4.5.textures_exercise3
+    4.6.textures_exercise4
+    5.1.transformations
+    5.2.transformations_exercise1
+    5.2.transformations_exercise2
 #     6.1.coordinate_systems
 #     6.2.coordinate_systems_depth
 #     6.3.coordinate_systems_multiple
